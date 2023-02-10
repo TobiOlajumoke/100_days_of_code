@@ -6,3 +6,8 @@ for n in range(0, len(student_heights)):
 # 🚨 Don't change the code above 👆
 
 #Write your code below this row 👇
+
+total_height = 0
+for height in student_heights:
+  total_height += height
+print(f"total height = {total_height}")
